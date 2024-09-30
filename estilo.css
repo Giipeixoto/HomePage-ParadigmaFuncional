@@ -1,0 +1,182 @@
+/* Resetando estilos padrão */
+* {
+    margin: 0; /* Remove margens padrão de todos os elementos */
+    padding: 0; /* Remove preenchimentos padrão de todos os elementos */
+    box-sizing: border-box; /* Faz com que a largura e altura incluam padding e bordas */
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /* Define a fonte do corpo */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll; /* ou auto, dependendo do seu caso */
+}
+
+/* Cabeçalho */
+#area-cabecalho {
+    background-color: #02073b; /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Preenchimento interno do cabeçalho */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para o cabeçalho */
+}
+
+#area-logo h1 {
+    color: #fff; /* Cor do texto do título */
+    font-size: 2.5em; /* Tamanho da fonte do título */
+}
+
+#area-menu {
+    margin-top: 10px; /* Espaço acima do menu */
+}
+
+#area-menu a {
+    color: #fff; /* Cor do texto dos links */
+    padding: 10px 20px; /* Preenchimento interno dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    border-radius: 5px; /* Bordas arredondadas para os links */
+    margin: 0 10px; /* Margens laterais entre os links */
+    transition: background-color 0.3s, transform 0.2s; /* Animações para transições */
+}
+
+#area-menu a:hover {
+    color: #ffcc00; /* Cor do texto ao passar o mouse */
+    text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+}
+
+/* Layout Principal */
+#area-principal {
+    display: flex; /* Usa flexbox para layout */
+    justify-content: space-between; /* Espaça os elementos igualmente */
+    flex-wrap: wrap; /* isso pode ajudar em layouts responsivos */
+    max-width: 1200px; /* Largura máxima do contêiner principal */
+    margin: 20px auto; /* Centraliza o contêiner com margens verticais */
+    padding: 15px; /* Preenchimento interno do contêiner principal */
+}
+
+/* Postagens */
+#area-postagens {
+    width: 70%; /* Largura da área de postagens */
+}
+
+.postagem {
+    background-color: #fff; /* Cor de fundo das postagens */
+    padding: 20px; /* Preenchimento interno das postagens */
+    margin: 20px 0; /* Ajuste isso se necessário */
+    margin-bottom: 20px; /* Espaço abaixo das postagens */
+    border-radius: 8px; /* Bordas arredondadas das postagens */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para as postagens */
+}
+
+.data-postagem {
+    display: block; /* Exibe a data como um bloco */
+    font-size: 0.9em; /* Tamanho da fonte da data */
+    color: #888; /* Cor da data */
+    margin-bottom: 15px; /* Espaço abaixo da data */
+}
+
+.postagem img {
+    width: 100%; /* Imagem ocupa toda a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para as imagens */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para as imagens */
+    margin-bottom: 15px; /* Espaço abaixo das imagens */
+}
+
+/* Títulos e Parágrafos */
+
+h2 {
+    font-size: 2em; /* Tamanho da fonte para títulos de nível 2 */
+    color: #333; /* Cor dos títulos */
+    margin-bottom: 15px; /* Espaço abaixo dos títulos */
+}
+
+h3 {
+    font-size: 1.5em; /* Tamanho da fonte para títulos de nível 3 */
+    color: #02073b; /* Cor dos títulos de nível 3 */
+    margin-top: 20px; /* Espaço acima dos títulos de nível 3 */
+    margin-bottom: 10px; /* Espaço abaixo dos títulos de nível 3 */
+}
+
+p {
+    margin-bottom: 20px; /* Espaço abaixo dos parágrafos */
+    color: #555; /* Cor dos parágrafos */
+}
+
+/* Lateral */
+#area-lateral {
+    width: 25%;
+    background-color: #f0f0f0; /* Cor de fundo da área lateral */
+    padding: 15px; /* Preenchimento interno da área lateral */
+    flex: 1; /* A área lateral ocupa o espaço restante */
+    margin-left: 15px; /* Espaço entre as postagens e a área lateral */
+}
+
+.conteudo-lateral {
+    background-color: #fff; /* Cor de fundo do conteúdo lateral */
+    padding: 12px; /* Preenchimento interno do conteúdo lateral */
+    border-radius: 8px; /* Bordas arredondadas do conteúdo lateral */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para o conteúdo lateral */
+    margin-top: 20px; /* Espaço acima da área lateral */
+}
+
+.conteudo-lateral h3 {
+    margin-bottom: 12px; /* Espaço abaixo dos títulos do conteúdo lateral */
+    color: #02073b; /* Cor dos títulos do conteúdo lateral */
+}
+
+.conteudo-lateral ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding-left: 0; /* Remove o preenchimento à esquerda da lista */
+}
+
+.conteudo-lateral li {
+    margin: 10px 0; /* Margem vertical entre os itens da lista */
+    padding: 8px; /* Preenchimento interno dos itens da lista */
+    border: 1px solid #ccc; /* Borda dos itens da lista */
+    border-radius: 5px; /* Bordas arredondadas dos itens da lista */
+    transition: background-color 0.3s, transform 0.2s; /* Animações para transições */
+}
+
+.conteudo-lateral li:hover {
+    background-color: #e8f0fe; /* Cor de fundo ao passar o mouse sobre os itens */
+    transform: scale(1.02); /* Efeito de aumento ao passar o mouse */
+}
+
+.conteudo-lateral li span {
+    font-weight: bold; /* Negrito para o texto dentro do span */
+    color: #333; /* Cor do texto dentro do span */
+}
+ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding padrão */
+}
+
+ul li {
+    margin-bottom: 10px; /* Espaço entre os itens */
+}
+
+h3 {
+    margin-bottom: 15px; /* Espaço abaixo do título */
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    #area-principal {
+        flex-direction: column; /* Coloca as áreas em coluna em telas menores */
+    }
+
+    #area-lateral {
+        margin-left: 0; /* Remove a margem em telas pequenas */
+    }
+
+    #area-postagens {
+        width: 100%; /* Ocupa toda a largura em telas pequenas */
+    }
+}
+
+html {
+    scroll-behavior: smooth; /* Efeito suave de rolagem */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tec Blog - O seu blog de tecnologia</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    
+    <div id="area-cabecalho">
+        
+        <div id="area-logo">
+            <h1>Paradigma<span class="branco">Funcional</span></h1>
+        </div>
+
+        <div id="area-menu">
+            <a href="index.html">Introducao</a>
+            <a href="sobre.html">Sobre C++</a>
+            <a href="bibliografia.html">Bibliografia</a>
+            <a href="link.html">Link da apresentação</a>
+            <a href="refe.html">Referências</a>
+            <a href="resumo.html">Resumo</a>
+        </div>
+    </div>
+
+
+
+
+    <div id="area-principal">
+       
+     
+        <div id="area-postagens">
+          
+            <div class="postagem">
+            <h2>Bibliografia</h2>
+
+            <p>John McCarthy (1927 – 2011) 
+                <br><br>
+                Bjarne Stroustrup (1950) <br>
+             </p>
+            
+         
+            
+              
+        </div> 
+        
+
+
+ 
+        
