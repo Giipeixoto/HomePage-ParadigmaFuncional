@@ -1,6 +1,11 @@
 # Paradigma Funcional - Projeto de Tecnologia
 
 ---
+## Acesse o site por aqui: 
+
+[https://giipeixoto.github.io/HomePage-ParadigmaFuncional/]
+
+---
 
 ## Descrição do Projeto
 
