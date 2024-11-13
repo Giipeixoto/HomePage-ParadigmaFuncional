@@ -3,7 +3,7 @@
 ---
 ## Acesse o site: 
 
-[](https://giipeixoto.github.io/HomePage-ParadigmaFuncional/)
+[https://giipeixoto.github.io/HomePage-ParadigmaFuncional/]
 
 ---
 
